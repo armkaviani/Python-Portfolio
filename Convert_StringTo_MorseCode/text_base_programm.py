@@ -22,7 +22,7 @@ class TextBase:
     def to_morse(self, message):
 
         morse_code=''
-        for letter in message:
+        for letter in message.upper():
             if letter in self.morse_code_dict:
                 morse_code += self.morse_code_dict[letter] + ' '
             else:
