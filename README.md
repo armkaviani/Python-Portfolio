@@ -1,2 +1,2 @@
-# codehub-python
+# python-portfolio
 Python snippets, experiments, and learning journey.
