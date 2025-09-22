@@ -4,6 +4,7 @@ def main():
 
     message = input("Enter text: ")
     converter_obj = TextBase()
+    morse = converter_obj.to_morse(message)
 
 
 
