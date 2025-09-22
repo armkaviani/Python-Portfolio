@@ -16,7 +16,20 @@ class TextBase:
                     '0':'-----', ', ':'--..--', '.':'.-.-.-',
                     '?':'..--..', '/':'-..-.', '-':'-....-',
                     '(':'-.--.', ')':'-.--.-'}
+    
+
         
+    def to_morse(self, message):
+
+        morse_code=''
+        for letter in message:
+            if letter in self.morse_code_dict:
+                morse_code += self.morse_code_dict[letter] + ' '
+            else:
+                morse_code += '?'
+
+        return morse_code.strip()
+
 
     
             
