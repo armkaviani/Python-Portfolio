@@ -12,7 +12,7 @@ class Player:
             print(f"It's {self.player2}'s turn (O)")
 
     
-    def check_winner(grid, symbol):
+    def check_winner(self, grid, symbol):
         # Check rows
         for row in grid:
             if all(cell == symbol for cell in row):

@@ -22,7 +22,7 @@ class GridCreation:
 
     def move(self, row, col, symbol):
         if self.grid[row][col] == " ":
-              self.grid[row][col] == symbol
+              self.grid[row][col] = symbol
               return True
         else:
              print("Cell is already taken! Try again.")
