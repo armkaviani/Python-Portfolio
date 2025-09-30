@@ -15,5 +15,8 @@ def main():
         grid_obj.print_grid()
         player_obj.player_turn(turn)
 
+        row = int(input("Enter row (0-2): "))
+        col = int(input("Enter col (0-2): "))
+
 if __name__ == "__main__":
     main()
