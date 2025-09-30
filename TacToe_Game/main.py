@@ -18,5 +18,7 @@ def main():
         row = int(input("Enter row (0-2): "))
         col = int(input("Enter col (0-2): "))
 
+        symbol = "X" if turn else "O"
+
 if __name__ == "__main__":
     main()
